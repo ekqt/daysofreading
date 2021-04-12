@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+  font-family: 'Darker Grotesque', sans-serif;
+  cursor: crosshair;
+  --blueish: #0081A7;
+  --tealish: #00AFB9;
+  --palish: #f8f9fa;
+  --peachish: #FED9B7;
+  --salmonish: #F07167;
+  --darkish: #22223b;
+  background-color: white;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 50%;
+  margin: 2rem auto 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--darkish);
+}
+
+nav h1, nav h2 {
+  margin: 0;
+  text-align: center;
+}
+
+nav h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  line-height: 2.6rem;
+  user-select: auto;
+}
+
+nav h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  margin: 0.8rem 0 0.2rem;
+  user-select: auto;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.filter {
+  border: 1px solid transparent;
+  border-radius: 8rem;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--darkish);
+  background-color: var(--palish);
+  margin: 1%;
+  transition: border 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.filter:hover {
+  color: var(--palish);
+}
+
+.filterText{
+  height: 50%;
+  margin: 0.75rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+}
+
+.filterTitle {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+  user-select: auto;
+}
+
+section {
+  width: 50%;
+  margin: 0 auto 1rem;
+}
+
+.journal {
+  font-size: 1.5rem;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin: 0.5rem 0 0.2rem;
+  padding-left: 4%;
+  color: var(--darkish);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: var(--darkish);
+  background-color: var(--palish);
+  margin: 1% 0;
+  opacity: 1;
+  height: fit-content;
+  transition: margin 0.25s ease-in-out;
+}
+
+.cardHidden {
+  opacity: 0;
+  border: none;
+  height: 0;
+  margin: 0;
+  transform: translateX(-1000px);
+}
+
+
+.card:hover {
+  border: 1px solid var(--darkish);
+}
+
+
+.image {
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  transform: translateY(0px);
+  opacity: 1;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-out;
+  z-index: 1000;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
+
+@media (min-width: 425px) {
+  .card:hover .image {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+.text{
+  height: 50%;
+  margin: 0.8rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+}
+
+
+.tags {
+  display: flex;
+  align-items: center;
+  margin: 0.25rem 0 0;
+}
+
+.spanG {
+  border-radius: 50%;
+  border: 2px solid var(--darkish);
+  margin: 0 4px 8px 0;
+  max-height: 5px;
+  max-width: 5px;
+  min-height: 5px;
+  min-width: 5px;
+  transform: translateY(4px);
+}
+
+.span {
+  border-radius: 50%;
+  border: 2px solid transparent;
+  margin: 0 8px 8px 0;
+  max-height: 5px;
+  max-width: 5px;
+  min-height: 5px;
+  min-width: 5px;
+  transform: translateY(4px);
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  line-height: 1rem;
+  opacity: 0.9;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin: 0.2rem 0 0.1rem;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin: 0.1rem 0 0.1rem;
+  padding: 0;
+  font-weight: 300;
+  line-height: 1.4rem;
+}
+
+footer {
+  border-top: 1px solid var(--darkish);
+  width: 50%;
+  margin: 0 auto 5rem;
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  nav, header, section, footer {
+    width: 90%;
+  }
+}
+
+footer p {
+  margin: 0.75rem 0;
+  font-size: 1.1rem;
+  padding-right: 2rem;
+  color: var(--darkish);
+}
+
+footer p a {
+  text-decoration: none;
+  transition: text-decoration 0.5s ease-in-out;
+  font-weight: 500;
+  color: var(--darkish);
+}
+
+footer p a:hover {
+  text-decoration: underline
+}
+
+#darkMode {
+  margin: 1.26rem 0.15rem 0 auto;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  color: var(--darkish);
+  transition: all 0.15s ease-in;
+  transform-origin: top right;
+}
+
+#darkMode:hover {
+  transform: scale(1.25);
+  filter: contrast(500%);
+}
