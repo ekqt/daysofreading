@@ -11,7 +11,31 @@ let template = [
 
 let data = [
     {
-        tag: 'life',
+        tag: 'tech',
+        date: '04/19/21',
+        image: 'https://www.economist.com/img/b/1280/720/90/1843magazine.com/sites/default/files/styles/il_manual_crop_16_9/public/1843_20210406_SOF-SUNGLASSES_001.jpg',
+        title: 'The science of fashionThe geeky origin of your cool sunglasses',
+        description: 'The story of shades, from industrial safety-gear to ultimate accessory | 1843 magazine',
+        url: 'https://www.economist.com/1843/2021/04/06/the-geeky-origin-of-your-cool-sunglasses'
+    },
+    {
+        tag: 'misc',
+        date: '04/16/21',
+        image: 'https://www.economist.com/img/b/1280/720/90/sites/default/files/images/print-edition/20210403_STD001_0.jpg',
+        title: 'Those who worry about CO2 should worry about methane, too',
+        description: 'It’s the other greenhouse gas | Science & technology',
+        url: 'https://www.economist.com/science-and-technology/2021/04/03/those-who-worry-about-co2-should-worry-about-methane-too'
+    },
+    {
+        tag: 'misc',
+        date: '04/14/21',
+        image: 'https://www.economist.com/img/b/1280/720/90/sites/default/files/images/print-edition/20210403_AMD001_0.jpg',
+        title: 'The influence of Central American dynasties is ebbing',
+        description: 'Oligarchs are no match for demagogues and drug lords | The Americas',
+        url: 'https://www.economist.com/the-americas/2021/04/03/the-influence-of-central-american-dynasties-is-ebbing'
+    },
+    {
+        tag: 'misc',
         date: '04/10/21',
         image: 'https://www.economist.com/img/b/1280/720/90/1843magazine.com/sites/default/files/styles/il_manual_crop_16_9/public/1843_20210401_LOB-COMEBACKS_001.jpg',
         title: 'History’s best comebacks, from Jesus to John Travolta',
@@ -43,7 +67,7 @@ let data = [
         url: 'https://www.freecodecamp.org/news/how-prusa3d-became-one-of-the-fastest-growing-startups-in-the-world/'
     },
     {
-        tag: 'life',
+        tag: 'misc',
         date: '04/01/21',
         image: 'https://miro.medium.com/max/746/1*it37wR0S2NyE68NFJPad_g.jpeg',
         title: 'The Remarkable Life of Granny. My family and I are mourning the loss…',
@@ -67,7 +91,7 @@ let data = [
         url: 'https://www.economist.com/business/2021/03/18/americas-drowsy-telecom-giants-face-a-5g-wake-up-call'
     },
     {
-        tag: 'life',
+        tag: 'misc',
         date: '03/28/21',
         image: 'https://www.economist.com/img/b/1280/720/90/sites/default/files/images/print-edition/20210320_IRD001_0.jpg',
         title: 'It might seem crazy - The pandemic has changed the shape of global happiness',
@@ -107,7 +131,7 @@ let data = [
         url: 'https://uxdesign.cc/designing-localisation-friendly-products-ef39d3c9afb7'
     },
     {
-        tag: 'life',
+        tag: 'misc',
         date: '03/22/21',
         image: 'https://www.economist.com/img/b/1280/720/90/sites/default/files/images/2021/03/articles/main/20210320_wbd001.jpg',
         title: 'The link between personality and success',
@@ -123,7 +147,7 @@ let data = [
         url: 'https://www.superhi.com/library/posts/designing-for-the-web-101-the-truth-about-all-the-different-roles-youll-come'
     },
     {
-        tag: 'life',
+        tag: 'misc',
         date: '03/05/21',
         image: 'https://i.guim.co.uk/img/media/fe1987e5d1df93e1f45f924dbea9467b78aa8b8e/631_358_4643_2788/master/4643.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9c66e5761447ffc93d6afda2f27ed958',
         title: 'The joys of being an absolute beginner – for life',
@@ -131,7 +155,7 @@ let data = [
         url: 'https://www.theguardian.com/lifeandstyle/2021/jan/07/the-joys-of-being-an-absolute-beginner-for-life'
     },
     {
-        tag: 'life',
+        tag: 'misc',
         date: '02/28/21',
         image: 'https://miro.medium.com/max/1200/1*rDw_aerWpw93sT7H8DiccQ.jpeg',
         title: 'Why fair societies are richer',
@@ -139,7 +163,7 @@ let data = [
         url: 'https://medium.com/the-gentle-revolution/why-fair-societies-are-richer-59056eb6e140'
     },
     {
-        tag: 'life',
+        tag: 'misc',
         date: '02/15/21',
         image: 'https://miro.medium.com/focal/1200/632/40/45/1*bg-EU_ldHLu6h4tYdp_SYA.jpeg',
         title: 'How I Approach the Toughest Decisions',
@@ -147,7 +171,7 @@ let data = [
         url: 'https://barackobama.medium.com/how-i-approach-the-toughest-decisions-dc1b165cdf2d'
     },
     {
-        tag: 'life',
+        tag: 'misc',
         date: '02/02/21',
         image: 'https://static01.nyt.com/images/2020/04/27/us/27up-virus-parents-1/27up-virus-parents-1-facebookJumbo-v2.jpg',
         title: 'Three Things Lockdowns Have Exposed About Working and Parenting',
