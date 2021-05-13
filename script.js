@@ -12,6 +12,110 @@ let template = [
 let data = [
     {
         tag: 'tech',
+        date: '05/12/21',
+        image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wp0lygvxper8vof63u4y.jpeg',
+        title: 'Introduction to HTTP Cookies',
+        description: 'Cookies, more properly called HTTP cookies, are small bits of data stored as text files on a browser. Cookies associate bits of data to a specific user.',
+        url: 'https://dev.to/lindaojo/introduction-to-http-cookies-1pn2'
+    },
+    {
+        tag: 'tech',
+        date: '05/10/21',
+        image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mjezqqavsyl3zpljqyay.png',
+        title: 'Why do you need Helmet in NodeJs ?',
+        description: 'Helmet helps you secure your Express apps by setting various HTTP headers. It is not a silver bullet,... ',
+        url: 'https://dev.to/sid__/why-do-you-need-helmet-in-nodejs-h1b'
+    },
+    {
+        tag: 'misc',
+        date: '05/08/21',
+        image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jvivgru9nliact3sgmx8.png',
+        title: 'What I learned after 10 years of development',
+        description: 'I have been coding for a long time, over 10 years. During all that website development of JavaScript, HTML, CSS, I learned a few things they do not teach in class...',
+        url: 'https://dev.to/adriantwarog/what-i-learned-after-10-years-of-development-3an'
+    },
+    {
+        tag: 'misc',
+        date: '05/07/21',
+        image: 'https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/getty_1163973538_iw76gr.jpg',
+        title: `Google's 3-Word Plan to Help Employees Avoid Burnout Is So Simple You Should Steal It`,
+        description: 'Sometimes the easiest way to help your team get more done is to stop interrupting them with meetings.',
+        url: 'https://www.inc.com/jason-aten/googles-3-word-plan-to-help-employees-avoid-burnout-is-so-simple-you-should-steal-it.html'
+    },
+    {
+        tag: 'tech',
+        date: '05/06/21',
+        image: 'https://www.freecodecamp.org/news/content/images/2021/04/pwas.png',
+        title: 'What is a PWA? Progressive Web Apps for Beginners',
+        description: 'These days, there is an app for everything – from banking to studying and from trading to shopping. Every business has an app, and even our governments have simplified their services into app form.',
+        url: 'https://www.freecodecamp.org/news/what-are-progressive-web-apps/'
+    },
+    {
+        tag: 'tech',
+        date: '05/04/21',
+        image: 'https://reactjs.org/logo-og.png',
+        title: 'Using the State Hook',
+        description: 'Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.',
+        url: 'https://reactjs.org/docs/hooks-state.html'
+    },
+    {
+        tag: 'tech',
+        date: '05/02/21',
+        image: 'https://www.freecodecamp.org/news/content/images/2021/04/varvara-grabova-NCSARCecw4U-unsplash-1.jpg',
+        title: '5 Mistakes Beginner Web Developers Make – And How to Fix Them',
+        description: 'This list is made up of the most common mistakes I have witnessed during nearly a decade of teaching beginning web development students.',
+        url: 'https://www.freecodecamp.org/news/common-mistakes-beginning-web-development-students-make/'
+    },
+    {
+        tag: 'tech',
+        date: '04/30/21',
+        image: 'https://reactjs.org/logo-og.png',
+        title: 'Introducing JSX',
+        description: 'Exploring a funny tag syntax that is neither a string nor HTML. It is called JSX, and it is a syntax extension to JavaScript.',
+        url: 'https://reactjs.org/docs/introducing-jsx.html'
+    },
+    {
+        tag: 'tech',
+        date: '04/28/21',
+        image: 'https://reactjs.org/logo-og.png',
+        title: 'Components and Props',
+        description: 'Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.',
+        url: 'https://reactjs.org/docs/components-and-props.html'
+    },
+    {
+        tag: 'tech',
+        date: '04/26/21',
+        image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ciklyhfzsd69qc8my6s1.png',
+        title: 'How does the web works',
+        description: 'Have you ever wondered what happens when you browse your favourite websites? ',
+        url: 'https://dev.to/rohitrana/how-the-web-works-1hd7'
+    },
+    {
+        tag: 'tech',
+        date: '04/24/21',
+        image: 'https://miro.medium.com/max/900/1*H4Y_NLqni0G4L5oL-hPmqw.png',
+        title: 'Javascript Fatigue. A few days ago, I met up with a friend… ',
+        description: 'At work this past quarter, we painstakingly started three new projects at work. I say “painstakingly” because every project required decisions to be made around tooling depending on the scope &…',
+        url: 'https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4'
+    },
+    {
+        tag: 'tech',
+        date: '04/23/21',
+        image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5xtfavzdsdydctb0c83x.jpg',
+        title: 'Concepts You Need to Know If You are a JavaScript Beginner',
+        description: 'JavaScript is undoubtedly a must have if you want to become a web developer.',
+        url: 'https://dev.to/axlyaguana11/concepts-you-need-to-know-if-you-are-a-javascript-beginner-5am0'
+    },
+    {
+        tag: 'misc',
+        date: '04/22/21',
+        image: 'https://www.economist.com/img/b/1280/720/90/sites/default/files/images/2021/04/articles/main/20210424_stp502.jpg',
+        title: 'How to save coffee from global warming',
+        description: 'Coffee IS A multi-billion dollar industry that supports the economies of several tropical countries. Roughly 100m farmers depend on it for their livelihoods.',
+        url: 'https://www.economist.com/science-and-technology/2021/04/22/how-to-save-coffee-from-global-warming'
+    },
+    {
+        tag: 'tech',
         date: '04/19/21',
         image: 'https://www.economist.com/img/b/1280/720/90/1843magazine.com/sites/default/files/styles/il_manual_crop_16_9/public/1843_20210406_SOF-SUNGLASSES_001.jpg',
         title: 'The science of fashionThe geeky origin of your cool sunglasses',
