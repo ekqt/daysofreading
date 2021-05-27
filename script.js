@@ -11,6 +11,118 @@ let template = [
 
 let data = [
     {
+        tag: 'misc',
+        date: '05/26/21',
+        image: 'https://www.economist.com/img/b/1280/720/90/sites/default/files/images/print-edition/20210522_IRD001_0.jpg',
+        title: 'Take Your Child to Work (Every) DayHow the pandemic has upended the lives of working parents',
+        description: 'Women have the most to lose',
+        url: 'https://www.economist.com/international/2021/05/22/how-the-pandemic-has-upended-the-lives-of-working-parents'
+    },
+    {
+        tag: 'tech',
+        date: '05/25/21',
+        image: 'https://www.freecodecamp.org/news/content/images/size/w2000/2021/05/web3-future-of-web.jpg',
+        title: 'What is Web3? The Decentralized Internet of the Future Explained',
+        description: 'If you’re reading this, you are already participating in the modern web (Web 2.0). The web we experience today is much different than what it was just 10 years ago (Web 1.0).',
+        url: 'https://www.freecodecamp.org/news/what-is-web3/'
+    },
+    {
+        tag: 'tech',
+        date: '05/24/21',
+        image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/45xih8wxw3b5svi44dm4.jpg',
+        title: '"Am I a bad developer?" - A question developers commonly face',
+        description: 'Being a developer is hard, no doubt about it. Software development is a field where nobody knows ever everything.',
+        url: 'https://dev.to/manuthecoder/am-i-a-bad-developer-a-question-developers-commonly-face-4gck'
+    },
+    {
+        tag: 'tech',
+        date: '05/23/21',
+        image: 'https://reactjs.org/logo-og.png',
+        title: 'Using the Effect Hook – React',
+        description: 'Data fetching, setting up a subscription, and manually changing the DOM in React components are all examples of side effects.',
+        url: 'https://reactjs.org/docs/hooks-effect.html'
+    },
+    {
+        tag: 'tech',
+        date: '05/22/21',
+        image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k47bkua49yojpa04k4dy.png',
+        title: 'useAxios : A simple custom hook for calling APIs using axios',
+        description: 'Hello folks, Frontend apps are not complete if there are no api calls involved.',
+        url: 'https://dev.to/ms_yogii/useaxios-a-simple-custom-hook-for-calling-apis-using-axios-2dkj'
+    },
+    {
+        tag: 'tech',
+        date: '05/21/21',
+        image: 'https://dev.to/social_previews/article/699563.png',
+        title: '10 basic concepts of React JS',
+        description: 'Nowadays React Js has been quite a popular framework for web development. ',
+        url: 'https://dev.to/smismail/10-basic-concepts-of-react-js-4hfh'
+    },
+    {
+        tag: 'tech',
+        date: '05/20/21',
+        image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_HERO.max-1300x1300.png',
+        title: `Project Starline: Feel like you're there, together`,
+        description: `Introducing Project Starline, a technology project that makes you feel like you're together, even when you're apart.`,
+        url: 'https://blog.google/technology/research/project-starline/'
+    },
+    {
+        tag: 'misc',
+        date: '05/19/21',
+        image: 'https://www.economist.com/img/b/1280/720/90/sites/default/files/images/2021/05/articles/main/20210508_fnd001.jpg',
+        title: `Will going digital transform the yuan’s status at home and abroad?`,
+        description: 'Don’t count on it: the new yuan will be a lot like the old yuan',
+        url: 'https://www.economist.com/finance-and-economics/2021/05/06/will-going-digital-transform-the-yuans-status-at-home-and-abroad'
+    },
+    {
+        tag: 'tech',
+        date: '05/18/21',
+        image: 'https://miro.medium.com/max/1200/1*l4DiHWTP3CK9-KX1doupig.jpeg',
+        title: 'Mailchimp Is Dead (It Just Doesn’t Know It Yet)',
+        description: 'Mailchimp may have been the 800-pound gorilla in the newsletter ecosystem, but there’s a new silverback that’s about to chop down the whole rainforest.',
+        url: 'https://bettermarketing.pub/mailchimp-is-dead-it-just-doesnt-know-it-yet-6e404c3e4b7b'
+    },
+    {
+        tag: 'misc',
+        date: '05/17/21',
+        image: 'https://www.economist.com/img/b/1280/720/90/1843magazine.com/sites/default/files/styles/il_manual_crop_16_9/public/1843_20210505_ST-NORMAL_001.jpg',
+        title: 'I can’t wait to get back to normal. How long before I’m bored?',
+        description: 'Ordinary life is more complicated than it seems | 1843 magazine',
+        url: 'https://www.economist.com/1843/2021/05/04/i-cant-wait-to-get-back-to-normal-how-long-before-im-bored'
+    },
+    {
+        tag: 'design',
+        date: '05/16/21',
+        image: 'https://miro.medium.com/max/1200/1*GKqpikMVBx4RxjuXjZDXbg.png',
+        title: 'Final reflections on the Google UX design certificate',
+        description: 'In 5 weeks, I completed the Google UX Design Certificate, “a rigorous, hands-on program that covers the design process from end-to-end.”',
+        url: 'https://bootcamp.uxdesign.cc/what-did-i-learn-from-getting-the-equivalent-of-a-ba-in-just-over-one-month-for-less-than-usd-40-8469f78f7f7'
+    },
+    {
+        tag: 'tech',
+        date: '05/15/21',
+        image: 'https://miro.medium.com/max/1200/1*9N62zUlyJcQet8kr7e_FVg.png',
+        title: 'Index as a key is an anti-pattern (React)',
+        description: `It looks elegant and it does get rid of the warning (which was the ‘real’ issue, right?). What is the danger here?`,
+        url: 'https://robinpokorny.medium.com/index-as-a-key-is-an-anti-pattern-e0349aece318'
+    },
+    {
+        tag: 'design',
+        date: '05/14/21',
+        image: 'https://miro.medium.com/focal/1200/632/50/54/0*FtMqkN_p_FndN9j7.jpg',
+        title: `Burger King’s New Logo Reveals Why Brands Are Obsessed With ‘Flat Design’`,
+        description: `The fast food chain's redesign evokes the imagery of classic Burger King logos paired with an iPhone aesthetic`,
+        url: 'https://marker.medium.com/burger-kings-new-logo-reveals-why-brands-are-obsessed-with-flat-design-13e445f36663'
+    },
+    {
+        tag: 'tech',
+        date: '05/13/21',
+        image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5xtfavzdsdydctb0c83x.jpg',
+        title: 'Concepts You Need to Know If You are a JavaScript Beginner',
+        description: 'JavaScript is undoubtedly a must have if you want to become a web developer. ',
+        url: 'https://dev.to/axlyaguana11/concepts-you-need-to-know-if-you-are-a-javascript-beginner-5am0'
+    },
+    {
         tag: 'tech',
         date: '05/12/21',
         image: 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wp0lygvxper8vof63u4y.jpeg',
